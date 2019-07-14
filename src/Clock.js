@@ -8,8 +8,7 @@ class Clock extends React.Component {
 
     render() {
       return (
-        <div>
-          <h1>Character 1 - 1</h1>
+        <div>          
           <h2>Welcome to React World, {this.state.date.toLocaleTimeString()}</h2>
         </div>
       );

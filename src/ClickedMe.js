@@ -18,8 +18,7 @@ class ClickedMe extends React.Component {
 
     render() {
       return (
-        <div>
-          <h1>Character 2 - 1</h1>
+        <div>          
           <button className = "butn" onClick = { this.clickMe } >Clicked Me : { this.state.numb }</button>
         </div>
       );

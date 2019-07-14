@@ -26,13 +26,12 @@ class ControlPanel extends React.Component {
 
     render() {
         return (
-            <h1>Character 2 - 2</h1>
-            <div style={ style }>
+            <div>
                 <Counter onUpdate = { this.onCounterUpdate }  value = { this.initValues[ 0 ] } diff = { 10 } />
                 <Counter onUpdate = { this.onCounterUpdate }  value = { this.initValues[ 1 ] } diff = { 10 } />
                 <Counter onUpdate = { this.onCounterUpdate }  value = { this.initValues[ 2 ] } diff = { 10 } />
-                <div>--------------------------</div>
-                <div>Total Count: { this.state.sum }</div>
+                ------------------------
+                <div>Total Count: { this.state.sum }</div>                
             </div>
         );
     }
